@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+p {
+  color: hsl(233, 8%, 62%);
+}
+.navbar-toggler {
+  border: none;
+}
+.hero-section {
+  text-align: center;
+  max-width: 100%;
+}
+.intro-img {
+  width: 100%;
+  max-width: 100%;
+}
+.hero-img {
+  width: 90%;
+  max-width: 100%;
+  margin-top: -36%;
+}
+.hero-div {
+  background-image: url(/images/bg-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  max-width: 100%;
+  padding: 0% 5%;
+}
+.hero-content h1 {
+  padding: 10% 6% 3% 6%;
+  font-size: 2rem;
+  color: hsl(233, 26%, 24%);
+}
+.nav-btn {
+  display: none;
+}
+
+.hero-content p {
+  padding: 0% 6% 5% 6%;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.primary-btn {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: none;
+  border-radius: 20px;
+  padding: 3% 9%;
+  font-size: 0.8rem;
+  margin-bottom: 25%;
+}
+.features {
+  background-color: hsl(220, 16%, 96%);
+  text-align: center;
+  padding: 20% 0;
+}
+.answer {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-bottom: 20%;
+  padding: 3% 10%;
+}
+.features h2 {
+  font-size: 2rem;
+  padding: 3% 0;
+  color: hsl(233, 26%, 24%);
+}
+.features h4 {
+  padding: 3% 0;
+  margin: 5% 0;
+  color: hsl(233, 26%, 24%);
+}
+.col-sm-12 {
+  margin: 0 4%;
+}
+.col-sm-12 p {
+  font-size: 0.8rem;
+  margin-bottom: 10%;
+}
+.col-sm-12 p:last-child {
+  margin-bottom: 3%;
+}
+.articles {
+  padding: 5%;
+  text-align: left;
+  background-color: rgb(250, 246, 246);
+}
+.articles h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: hsl(233, 26%, 24%);
+  margin: 20% 0 5% 0;
+}
+.img-1,
+.img-2,
+.img-3,
+.img-4 img {
+  width: 100%;
+  padding: 0;
+  /* margin: 0 4%; */
+  border: 0.01px solid lightgray;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+}
+.img-4 {
+  padding: 0;
+}
+.article-1,
+.article-2,
+.article-3,
+.article-4 {
+  background-color: white;
+  border-radius: 0 0 7px 7px;
+  margin-bottom: 5%;
+  padding: 7%;
+}
+footer {
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+.icons img {
+  margin-right: 5%;
+}
+.icons {
+  margin: 0 5% 5% 10%;
+}
+.easybank {
+  position: inherit;
+  margin-top: -9%;
+  font-size: 1.15rem !important;
+  font-weight: bold;
+  color: white;
+}
+
+footer li {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.875rem;
+}
+.first-col,
+.second-col a {
+  padding: 3%;
+}
+.first-col,
+.second-col {
+  margin: 0;
+}
+.secondary-btn {
+  color: white;
+  margin-bottom: 5%;
+}
+.copyright {
+  font-size: 0.5rem;
+}
+.collapse {
+  text-align: center;
+  margin: 5%;
+}
+.signUp {
+  padding: 5% 10% 10% 10%;
+}
+.signup-btn {
+  margin: 2%;
+  padding: 1% 5%;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .container-fluid {
+    padding: 1%;
+    margin: 0;
+    background-color: white;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .collapse {
+    margin: 0;
+    justify-content: space-evenly;
+  }
+  .nav-btn {
+    display: inline;
+    font-size: 0.675rem;
+    padding: 2% 9% !important;
+    position: relative;
+    right: 20%;
+  }
+
+  .navbar-brand {
+    margin-left: 10%;
+  }
+  .just-here {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: hsl(0, 0%, 98%);
+    height: 50%;
+    max-height: 70%;
+  }
+  .hero-div {
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-position: 10% 80%;
+    width: 90%;
+    max-width: 60%;
+    padding: 0;
+  }
+  .hero-img-div {
+    height: 500px;
+    max-width: 100%;
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+  .hero-img {
+    width: 100%;
+    max-width: 100%;
+    height: 150%;
+    margin-top: -15%;
+    margin-right: -36%;
+  }
+
+  .hero-content {
+    text-align: left;
+    padding: 7% 7% 0 10%;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .hero-content p {
+    font-size: 0.875rem;
+  }
+  .hero-content h1,
+  .hero-content p {
+    padding-left: 0;
+  }
+  .primary-btn {
+    padding: 1.5% 5%;
+  }
+  .primary-btn:hover {
+    opacity: 0.5;
+  }
+  .signup-btn:hover {
+    opacity: 0.5;
+  }
+  .features {
+    text-align: left;
+    padding: 5% 5% 7% 10%;
+  }
+  .features h2 {
+    padding: 1.5% 0 1.5% 0;
+  }
+  .answer {
+    text-align: left;
+    padding: 0 0 5% 0;
+    margin: 0;
+    font-size: 0.875rem;
+    width: 50%;
+  }
+  .col-sm-12 {
+    padding-left: 0 2%;
+    margin: 0;
+  }
+  .articles {
+    padding: 3% 5% 3% 10%;
+  }
+  .articles h2 {
+    margin: 0;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    margin: 0;
+  }
+  .img-1 {
+    height: 165px;
+  }
+  footer {
+    padding: 5% 5% 3% 10%;
+    text-align: left;
+    font-size: 0.875rem;
+  }
+  .easybank {
+    margin: 0;
+    position: relative;
+    top: 2%;
+    /* display: inline; */
+  }
+  .first-col,
+  .icons,
+  .second-col {
+    width: 20%;
+  }
+  .first-col {
+    padding: 0;
+  }
+  .first-col li {
+    margin-bottom: 5%;
+  }
+
+  .second-col li {
+    margin-bottom: 5%;
+  }
+  .icons img {
+    cursor: pointer;
+  }
+  .icons img:hover {
+    color: hsl(136, 65%, 51%);
+  }
+  footer a:hover {
+    color: hsl(136, 65%, 51%);
+  }
+  .button {
+    margin: 2% 0% 0% 0%;
+    position: absolute;
+    right: 6%;
+    text-align: right;
+  }
+  .secondary-btn {
+    margin: 0;
+    padding: 3% 9%;
+  }
+  .attribution {
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+  }
+}

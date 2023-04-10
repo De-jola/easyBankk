@@ -1,0 +1,32 @@
+<%- include('partials/header'); -%>
+
+<section class="signUp">
+  <h1>Join the Waitlist</h1>
+  <p>
+    Join our waitlist and be the first to know when we launch this amazing
+    service!
+  </p>
+  <form action="/signup" method="post">
+    <label class="form-label">First Name</label>
+    <input
+      type="text"
+      name="firstname"
+      placeholder="First Name"
+      class="form-control"
+    />
+
+    <label class="form-label">Last Name</label>
+    <input
+      type="text"
+      name="lastname"
+      placeholder="Last Name"
+      class="form-control"
+    />
+    <label class="form-label">Email</label>
+    <input type="email" name="email" placeholder="Email" class="form-control" />
+    <button class="signup-btn" type="submit" name="invitation">
+      Join Waitlist
+    </button>
+  </form>
+</section>
+<%-include('partials/footer'); -%>
